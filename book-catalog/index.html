@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Каталог книг</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Каталог книг</h1>
+
+    <form id="search-form" class="search-form">
+      <input type="text" id="search-input" name='search' placeholder="Введите название книги..." required />
+      <button type="submit">Найти</button>
+    </form>
+
+    <div id="status-message" class="status-message"></div>
+
+    <div id="books-container" class="books-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.filters {
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.filter-button.active {
+  background-color: #007bff;
+  color: white;
+}

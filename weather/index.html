@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Прогноз погоды</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://api-maps.yandex.ru/v3/?apikey=879ad6c1-2f9b-462a-9fb0-5ef5404870a8&lang=ru_RU"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Погода в городе</h1>
+
+    <form id="weather-form" class="weather-form">
+      <input type="text" id="city-input" name="city" placeholder="Введите город..." required />
+      <button type="submit">Узнать</button>
+    </form>
+
+    <div id="status-message" class="status-message"></div>
+
+    <div id="weather-result" class="weather-result">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
